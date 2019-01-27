@@ -2,4 +2,4 @@
 <p>{{ object.title }}</p>
 <p>{% if object.description %}{{ object.description }}
     {% else %}{{'description will appear soon ahahha no dawac te comity   s'|upper}}
-    {% endif %}</p>
+    {% endif %}</p>ŚŚ
