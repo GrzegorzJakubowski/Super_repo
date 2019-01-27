@@ -15,7 +15,7 @@ def product_detail_view(request):
     return render(request,'client',context)
 
 
-'''def product_create_view(request):
+def product_create_view(request):
     form = ProductForm(request.POST or None)
     if form.is_valid():
         form.save()
@@ -23,7 +23,7 @@ def product_detail_view(request):
     context = {
         'form' : form
     }
-    return render(request,'create_view',context)'''
+    return render(request,'create_view',context)
 
 
 '''def product_create_view(request):
@@ -37,7 +37,7 @@ def product_detail_view(request):
 
 
 
-def product_create_view(request):
+'''def product_create_view(request):
     my_form = RowProductForm()
     if request.method == "POST":
         my_form = RowProductForm(request.POST)
@@ -49,7 +49,7 @@ def product_create_view(request):
     context = {
         'form' : my_form
     }
-    return render(request,'create_view',context)
+    return render(request,'create_view',context)'''
 
 def home_view(request):
     context = {}
