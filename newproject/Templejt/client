@@ -1,0 +1,5 @@
+<h1>Company client</h1>
+<p>{{ object.title }}</p>
+<p>{% if object.description %}{{ object.description }}
+    {% else %}{{'description will appear soon'|upper}}
+    {% endif %}</p>
