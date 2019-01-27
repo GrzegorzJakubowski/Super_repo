@@ -12,6 +12,7 @@ def product_detail_view(request):
         'title' : obj.title,
         'description' : obj.description
     }
+    return render(request,'client',context)
 
 
 '''def product_create_view(request):
